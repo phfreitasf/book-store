@@ -1,0 +1,14 @@
+<div class="card shadow-sm col-12 mb-2 mx-2">
+  <div class="card-header"><img class="bd-placeholder-img card-img-top"
+      src="../../../../../assets/imgs/{{livro.id}}.jpg" width="100" /></div>
+  <div class="card-body">
+    <p class="card-text">Nome do livro: {{livro.name}}</p>
+    <p class="card-text">Gênero: {{livro.category}}</p>
+    <p class="card-text">Qtde disponível: {{livro.quantity}}</p>
+    <p class="card-text">Preço: {{livro.price | currency:'BRL'}}</p>
+    <div class="d-flex justify-content-around">
+      <button class="btn btn-primary btn-sm col-5">Comprar</button>
+      <button class="btn btn-outline-secondary btn-sm col-5">Detalhes</button>
+    </div>
+  </div>
+</div>
